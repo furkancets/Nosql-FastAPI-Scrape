@@ -22,6 +22,7 @@ ProductScrapeEvent = models.ProductScrapeEvent
 #celery --app app.worker.celery_app worker --beat -s celerybeat-schedule --loglevel INFO
 #celery --app app.worker.celery_app worker --loglevel INFO 
 #celery --app app.worker.celery_app beat --loglevel INFO
+#uvicorn app.main:app --reload
 
 
 @celery_app.on_after_configure.connect
