@@ -1,0 +1,5 @@
+.ipynb_checkpoints
+app/__pycache__
+nbs/.ipynb_checkpoints
+celerybeat-schedule
+Pipfile.lock
